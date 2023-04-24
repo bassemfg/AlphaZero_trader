@@ -8,6 +8,7 @@ from model import Residual_CNN
 
 from agent import Agent, User
 
+
 import config
 
 def playMatchesBetweenVersions(env, run_version, player1version, player2version, EPISODES, logger, turns_until_tau0, goes_first = 0):
